@@ -139,8 +139,8 @@ async function loadAllStats() {
           "LF Challenge",
           "L.F. 2",
           "CE SSAA Cadete Fem.",
-          "CE SSAA Mini Fem.",
-          "CE SSA Infantil Fem."
+          "CE SSAA Infantil Fem.",
+          "CE SSAA Mini Fem."
         ];
         let genero = "H";
         if (femaleCompetitions.some(f => f.toLowerCase() === comp.trim().toLowerCase())) {
